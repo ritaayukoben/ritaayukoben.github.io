@@ -1,22 +1,28 @@
-<!-- Header: Replaced smiley picture with your picture and added alt text -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rita Obenofunde personal website at SHSU">
+    <meta name="keywords" content="Rita Obenofunde, MIS, SHSU">
+    <title>Rita Obenofunde's Web Site</title>
+    <link rel="sytlesheet" href="styles/main6.css">
+</head>
+<body>
     <header>
-        <!-- Update the image source to your file uploaded to GitHub -->
-        <img src="images/picture_of_me.jpg" alt="My picture" height="100" class="profile-image">
-        <h1 class="shadow">Rita Obenofunde</h1>
-        <h2 class="shadow"><a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></h2>
-    </header>
-
-    <!-- Main content -->
+        <!-- Replace with your image path -->
+        <img src="images/picture of me.jpg" alt="My picture" height="100">
     <main>
-        <!-- Heading 1 for main title -->
+        <!-- Welcome message and GitHub link -->
         <h1>Welcome to my web site!</h1>
+        <h2><a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></h2>
 
-        <!-- Biography using Heading 3 with more words -->
-        <h3>I am a student at Sam Houston State University studying Management Information Systems. I'm passionate about technology, business, and helping others with innovative solutions. I'm constantly learning new skills and expanding my knowledge in the tech industry. I am also interested in entrepreneurship, digital innovation, and leveraging technology to solve real-world problems. My goal is to combine both my technical expertise and business acumen to help organizations succeed in the modern world. I am excited for the opportunities that lie ahead in my career!</h3>
+        <!-- Biography -->
+        <h3>I am a passionate student at Sam Houston State University studying Management Information Systems. I am interested in technology, entrepreneurship, and business.</h3>
 
-        <!-- Navigation with unordered list -->
+        <!-- Navigation list -->
         <nav>
-            <ul id="list">
+            <ul>
                 <li>Education</li>
                 <li>Work Experience</li>
                 <li>Skills and Knowledge</li>
@@ -24,24 +30,27 @@
             </ul>
         </nav>
 
-        <!-- Link for Class Project (link is a placeholder with # for now) -->
+        <!-- Class Project link -->
         <p><a href="#">Class Project</a></p>
 
-        <!-- Resume link (make sure the file is uploaded to the 'files' folder) -->
-        <p>Click here to download my <a href="files/Concepts.pdf" target="_blank">Concepts Resume</a>.</p>
+        <!-- Resume download link -->
+        <p>Click here to download my <a href="files/Concepts.pdf" target="_blank">Concepts</a> resume.</p>
 
-        <!-- LinkedIn profile link (opens in a new tab) -->
-        <p>Visit my <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn profile</a>.</p>
+        <!-- LinkedIn Profile link -->
+        <p>Visit my <a href="https://www.linkedin.com/in/rita-obenofunde-062310337" target="_blank">LinkedIn profile</a>.</p>
 
-        <!-- Email link with emphasis/italics -->
+        <!-- Email contact -->
         <p>Contact me at <em><a href="mailto:ritaoben@gmail.com">ritaoben@gmail.com</a></em> for any inquiries.</p>
+
     </main>
 
-    <!-- Line break and horizontal line before footer -->
     <br>
     <hr>
 
-    <!-- Footer with copyright symbol and message -->
+    <!-- Footer -->
     <footer>
-        <p class="copyright">&copy; 2025 Rita Obenofunde. All rights reserved.</p>
+        <p>&copy; 2025 Rita Obenofunde. All rights reserved.</p>
     </footer>
+</body>
+</html>
+</body>
