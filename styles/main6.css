@@ -1,74 +1,75 @@
 
-
+html{
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
 body {
-    font-family: arial, sans-serif;
-    margin: 0;
-    padding:0;
+    width: 1000px;
     background-color: #f5f5f5;
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
     text-align: center;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+body{
+    background-image: url('background-pattern.png');
+    background-repeat: repeat-y;
+    background-position: right;
+
 }
 header {
     display: flex;
     align-items: center;
     border-bottom: 2px solid #ccc;
-    padding-btotom: 10px;
-    justfly-content: center;
+    padding-bottom: 10px;
+    justify-content: center;
+
 }
+
 header img {
     width: 80px;
-    height: 80px
+    height: 80px;
     border-radius: 50%;
     margin-right: 15px;
 }
+
 h1{
     font-size: 24px;
     font-weight: bold;
     color: darkred;
-
-}
-{
-    .highlight{
-        font-style: italic;
-    }
-}
-.about, .info {
-   border: 2px dashed blue;
-   border-radius: 10px;
-   padding: 15px;
-   margin: 10px 0;
-
-
+    margin-top: 3em;
+    margin-right: 2em;
+    margin-bottom: 1.5em;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
 }
 
 .info {
-    border: 2px solid red; 
-}
-a {
-    color: darkblue;
-    text-decoratoin: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-ul{
-    list-style-type: square;
-    padding-left: 20px;
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    border: 5px dashed blus;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
 }
 
-ul li{
-    margin: 5px 0;
+.contact {
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 0;
+    margin-left: 2em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
 }
-
-footer{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
+header img {
+ 
+    margin-left: 2em;;
 }
