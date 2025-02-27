@@ -1,75 +1,72 @@
 
-html{
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
-}
-body {
-    width: 1000px;
-    background-color: #f5f5f5;
+html {
+    background-image:linear-gradient(to bottom,white 0%, #facd8a 100%);
+ }
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width:1000px; 
+    background-color: white;
     margin: 15px auto;
-    padding: 15px;
+    padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 25px;
-    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-body{
-    background-image: url('background-pattern.png');
-    background-repeat: repeat-y;
+    box-shadow: 5px 5px 0 0;
+    background-image:url("../images/SH_orange.png");
     background-position: right;
-
-}
-header {
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
-    justify-content: center;
-
-}
-
-header img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-
-h1{
-    font-size: 24px;
-    font-weight: bold;
-    color: darkred;
-    margin-top: 3em;
-    margin-right: 2em;
-    margin-bottom: 1.5em;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+ }
+ a:hover, a:focus {
+    font-style: italic;
+    color: orangered;
+ }
+ header h1{
+    font-size: 175%;
+    color: maroon;
+    text-indent: 30px;
+ }
+ header h2{
+    font-size: 130%;
+    color: #089;
+    text-indent: 30px;
+ }
+ header img {
+    float: left;
+    margin-left: 2em;
+ }
+ .shadow {
+    text-shadow: 2px 2px 2px rgb(120, 128, 255);
+ }
+ main{
+    clear: left;
+ }
+ main h3 {
+    margin: 3em 2em 1.5em;
+    font-size: 105%;
     border: 5px double blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
-}
-
-.info {
-    margin-top: 1.5em;
-    margin-right: 2em;
-    margin-left: 2em;
-    margin-bottom: 1.5em;
-    border: 5px dashed blus;
+ }
+ main nav {
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
-    padding: 0.5em;
-}
-
-.contact {
-    margin-top: 1.5em;
-    margin-right: 2em;
-    margin-bottom: 0;
-    margin-left: 2em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-}
-header img {
- 
-    margin-left: 2em;;
-}
+    padding: .5em;
+ }
+ #list {
+    line-height: 105%;
+ }
+ main div {
+ margin: 1.5em 2em 0 2em;
+ border: 5px dotted blue;
+ border-radius: 20px;
+ box-shadow: 3px 3px 4px 4px red;
+ padding: 1em;
+ }
+ footer p.copyright{
+    text-align: center;
+    font-size: 80%;
+ }
