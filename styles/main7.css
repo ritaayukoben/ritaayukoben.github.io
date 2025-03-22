@@ -55,9 +55,6 @@ nav ul li a {
 }
 
 
-
-/* Article Section */
-
 article {
 
     display: flex;
@@ -147,9 +144,3 @@ footer {
     padding: 5px;
 
 }
-
-
-
-
-
-
