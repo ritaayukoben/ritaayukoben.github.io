@@ -44,7 +44,7 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: url("../images/Sam_Houston_State_University.png");
+    background-image: url("../images/background_logo_sam_houston.png");
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -54,6 +54,7 @@ article p img {
     height: auto;
     border-radius: 10px;
     float: left;
+    margin-right: 15px; 
 }
 a:hover, a:focus {
     font-style: italic;
