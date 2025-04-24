@@ -4,14 +4,20 @@ html {
     background: linear-gradient(to left, #fff4db, #ffe6b3);
 }
 
-body {
+.container {
+    background-color: #fff8f0;
+    border: 2px solid #999;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
     width: 90%;
     margin: 2em auto;
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
-    padding: 1em;
-    font-family: Arial, sans-serif;
+}
+
+.header-flex{ 
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 /* Links */
@@ -81,13 +87,14 @@ footer {
 
 /* Fixed Contact Box */
 p.fixed {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: #c6ffcc;
+    background-color: #ccffcc;
     padding: 0.7em 1.5em;
     border: 2px solid green;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
     font-weight: bold;
+    width:fit-content;
+    margin-left: auto;
+    margin-top: 20px;  
+    
 }
