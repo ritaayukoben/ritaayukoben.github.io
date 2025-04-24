@@ -1,14 +1,20 @@
+/* Background and Base Styles */
 html {
     height: 100%;
-    background: linear-gradient(to left, #ffffff, #cccccc);
+    background: linear-gradient(to left, #fff4db, #ffe6b3);
 }
 
 body {
     width: 90%;
-    margin: 0 auto;
+    margin: 2em auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    padding: 1em;
     font-family: Arial, sans-serif;
 }
 
+/* Links */
 a {
     text-decoration: none;
     color: darkblue;
@@ -19,12 +25,13 @@ a:focus, a:hover {
     border-style: dotted solid;
 }
 
-/* Shadow Class */
+/* Header Text Shadow */
 .shadow {
     text-shadow: 2px 2px 5px gray;
+    color: darkred;
 }
 
-/* Article Styles */
+/* Article Styling */
 article {
     clear: left;
     width: 70%;
@@ -37,12 +44,14 @@ article {
 
 article h3 {
     column-span: all;
+    font-weight: bold;
 }
 
 article img {
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
+    border: 1px solid #ccc;
 }
 
 article p::first-letter {
@@ -52,30 +61,33 @@ article p::first-letter {
     color: lightgreen;
 }
 
-/* Aside Styles */
+/* Aside Styling */
 aside {
     width: 20%;
     float: right;
     background-color: #ffebc6;
     padding: 1em;
+    border: 1px solid #ccc;
 }
 
-/* Footer Styles */
+/* Footer Styling */
 footer {
     clear: both;
     border-top: 2px solid maroon;
     padding-top: 1em;
     text-align: center;
+    font-size: 0.9em;
 }
 
-/* Fixed Contact Info */
+/* Fixed Contact Box */
 p.fixed {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    background-color: #f0f0f0;
-    padding: 0.5em 1em;
-    border: 1px solid #ccc;
+    background-color: #c6ffcc;
+    padding: 0.7em 1.5em;
+    border: 2px solid green;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    font-weight: bold;
 }
