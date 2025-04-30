@@ -1,77 +1,60 @@
 
-body, h1, h2, p, ul {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5e7; /* light beige */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #fdfdfd;
-  }
-  
-  /* Top Nav Section */
+  /* === TOP NAVIGATION === */
   .top-nav {
+    background-color: #b24d00; /* burnt orange */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #b24d00;
-    padding: 10px 20px;
+    padding: 12px 20px;
     color: white;
+    flex-wrap: wrap;
   }
   
   .top-nav p {
     font-weight: bold;
+    font-size: 18px;
+    margin: 0;
   }
   
+  /* === MENU === */
   .menu {
     display: flex;
-    list-style: none;
     gap: 20px;
+    flex-wrap: wrap;
   }
   
   .menu li a {
     color: white;
-    text-decoration: none;
     font-weight: bold;
+    padding: 8px;
   }
   
   .menu li.current a {
     text-decoration: underline;
   }
   
-  .menu-button-container {
-    display: none; /* Hidden on desktop */
-  }
-  
-  /* Article Section */
-  article {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
-  }
-  
-  article img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-  }
-  
-  /* Footer */
-  footer {
-    background-color: #eee;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9em;
-  }
-  
-  footer a {
-    color: #b24d00;
-    text-decoration: none;
-  }
-  
-  /* Responsive Nav Menu */
+  /* === HAMBURGER MENU (MOBILE) === */
   #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button-container {
     display: none;
   }
   
@@ -84,17 +67,16 @@ body, h1, h2, p, ul {
       padding: 10px;
     }
   
-    .menu li {
-      margin-bottom: 10px;
-    }
-  
     .menu li a {
       color: white;
+      padding: 10px;
+      display: block;
     }
   
     .menu-button-container {
       display: block;
       cursor: pointer;
+      padding: 10px;
     }
   
     .menu-button {
@@ -108,3 +90,37 @@ body, h1, h2, p, ul {
       display: flex;
     }
   }
+  
+  /* === MAIN CONTENT === */
+  article {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  article h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* === FOOTER === */
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #b24d00;
+  }
+  
